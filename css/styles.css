@@ -1,0 +1,44 @@
+div {
+  background-color: #87dfd6;
+  margin-bottom: 0;
+}
+hr {
+    border-style: dotted none none none;
+    border-color: #48466d;
+    border-width: 5px;
+    background-color: #87dfd6;
+    height: 1px;
+    width: 5%;
+  }
+
+
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  font-family: 'Questrial', sans-serif;
+}
+.skills{
+
+}
+.top-cloud {
+  position: relative;
+  left: 220px;
+  padding-top: 70px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.mountain {
+  margin-bottom: 0;
+}
