@@ -1,44 +1,256 @@
 div {
   background-color: #87dfd6;
-  margin-bottom: 0;
+  margin: 0;
+  color: #40514E;
 }
-hr {
-    border-style: dotted none none none;
-    border-color: #48466d;
-    border-width: 5px;
-    background-color: #87dfd6;
-    height: 1px;
-    width: 5%;
-  }
 
+hr {
+  border-style: dotted none none none;
+  border-color: #48466d;
+  border-width: 5px;
+  background-color: white;
+  height: 1px;
+  width: 5%;
+  align-items: center;
+  margin: 100px auto;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+h3 {
+  color: #11999E;
+
+}
 
 body {
   text-align: center;
   margin: 0;
+  background-color: #87dfd6;
   font-family: 'Montserrat', sans-serif;
-
 }
 
 h1 {
-  margin: 0;
+  margin: 0 auto 0 auto;
   font-family: 'Sacramento', cursive;
+  font-size: 4.6875rem;
+  padding-top: 7.5rem;
+  color: #0fabbc;
 }
-h2{
-  font-family: 'Questrial', sans-serif;
-}
-.skills{
 
+h2 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 2.5rem;
+  color: #0fabbc;
+  font-weight: normal;
 }
+a:hover{
+  color: white;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.first-kill{
+background-color: white;
+}
+.top-container{
+  margin: 0 auto;
+  width: 50%;
+}
+
 .top-cloud {
-  position: relative;
-  left: 220px;
-  padding-top: 70px;
+  position: absolute;
+  right: 25%;
+  top: 10%;
 }
 
 .bottom-cloud {
   position: absolute;
+  left: 25%;
 }
 
 .mountain {
   margin-bottom: 0;
+}
+
+.small {
+  font-size: 0.75rem;
+  margin-top: 3.437rem;
+}
+
+.bottom-container {
+  padding-top: 4.375rem;
+  padding-bottom: 1.25rem;
+}
+
+.footer-link {
+  margin-left: 0.3125rem;
+  margin-right: 0.3125rem;
+  color: #0fabbc;
+  text-decoration: none;
+}
+
+.scale-up {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #0fabbc;
+  font-weight: normal;
+}
+
+.sub-head {
+  color: #0fabbc;
+}
+
+.btn {
+  color: #0fabbc;
+}
+
+.middle-container {
+  background-color: white;
+}
+
+.skill-row {
+  background-color: white;
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+@media (max-width: 400px) {
+  body{
+    margin: 0;
+    width: 200%;
+  }
+  div{
+    width: 100%;
+  }
+  .top-cloud{
+    position: absolute;
+    right: -80%;
+  }
+  .intro{
+    width: 100%;
+  }
+  .middle-container{
+    width: 100%;
+  }
+  .top-container{
+    width: 100%;
+  }
+  .bottom-container{
+    width: 100%;
+  }
+  .contact-me{
+    width: 100%;
+    margin: 0;
+  }
+  .skill-row{
+    width: 100%;
+  }
+  .touch-p{
+    width: 100%;
+  }
+  .bottom-p{
+    width: 100%;
+    margin: 0;
+  }
+  .profile{
+    padding-top: 50px;
+  }
+}
+@media (min-width: 400px) and (max-width: 850px) {
+  .skill-row{
+    width: 75%;
+  }
+  .intro{
+    width: 75%;
+  }
+  .top-container{
+    width: 75%;
+  }
+  .top-cloud{
+    position: absolute;
+    right: 10%;
+  }
+  .bottom-cloud{
+    position: absolute;
+    left: 12%;
+  }
+  .profile{
+    padding-top: 35px;
+  }
+}
+.profile {
+  background-color: white;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  line-height: 2;
+}
+.skills {
+  background-color: white;
+}
+
+.contact-me {
+  background-color: white;
+  margin: 0 auto;
+}
+.img-guru{
+  width: 25%;
+  float: right;
+  max-width: 120px;
+}
+.img-pc{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  max-width: 120px;
+}
+.rights{
+  margin-top: 4.375rem;
+  font-size: 90%;
+
+}
+.bottom-p{
+  width: 50%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.touch{
+  padding-bottom: 30px;
+}
+.BUTTON_AZS {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 8px;
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 15px;
+  background-color: #66BFBF;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #0059A0 1px;
+  margin-bottom: 0.6rem;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_AZS:hover {
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 8px;
+  text-decoration: none;
 }
